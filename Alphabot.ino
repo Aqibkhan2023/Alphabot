@@ -94,7 +94,7 @@ void moveMotor2Forward()
 {
   digitalWrite(motor2forward, HIGH);
   digitalWrite(motor2backward, LOW);
-  analogWrite(motor2enable, 245);
+  analogWrite(motor2enable, 255);
 }
 
 void moveMotor1Backward()
@@ -107,7 +107,7 @@ void moveMotor2Backward()
 {
   digitalWrite(motor2forward, LOW);
   digitalWrite(motor2backward, HIGH);
-  analogWrite(motor2enable, 245);
+  analogWrite(motor2enable, 255);
 }
 
 void motor1Stop()
@@ -122,6 +122,6 @@ void motor2Stop()
 {
   digitalWrite(motor2forward, LOW);
   digitalWrite(motor2backward, LOW);
-  analogWrite(motor2enable, 235);
+  analogWrite(motor2enable, 255);
 }
 
